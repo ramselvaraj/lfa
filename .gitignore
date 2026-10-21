@@ -1,0 +1,6 @@
+build/
+output/
+*.img
+*.o
+*.ko
+__pycache__/
