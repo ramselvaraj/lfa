@@ -4,3 +4,4 @@ output/
 *.o
 *.ko
 __pycache__/
+cosim/build/

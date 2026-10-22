@@ -1,0 +1,3 @@
+[submodule "rtl/RAPTOR-SoC"]
+	path = rtl/RAPTOR-SoC
+	url = https://github.com/ramselvaraj/RAPTOR-SoC.git
