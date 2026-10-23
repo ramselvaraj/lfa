@@ -18,6 +18,12 @@ QEMU hands U-Boot a device tree describing the `virt` machine. U-Boot passes the
 tree on to the kernel. There is no `-kernel` shortcut: the kernel is loaded from the disk
 image by the bootloader, the way it would be on real hardware.
 
+## Status
+
+Boots to a login prompt on QEMU in about 1.2 s of kernel time, with a working network. See
+[docs/boot.md](docs/boot.md) for a stage-by-stage walkthrough and
+[docs/boot-log.txt](docs/boot-log.txt) for the captured serial log.
+
 ## Quick start
 
 Host packages (Arch): `base-devel git wget ninja meson dtc bc swig python-pyelftools mtools ccache uboot-tools qemu-system-aarch64`
