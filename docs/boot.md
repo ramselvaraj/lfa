@@ -84,6 +84,6 @@ U-Boot's 2-second autoboot delay and the firmware scan come before that.
 ## What is not here yet
 
 - A custom device tree. The kernel uses the one QEMU generates.
-- TF-A. QEMU's `virt` board provides PSCI itself, so U-Boot runs directly at EL2/EL1.
+- TF-A. QEMU's `virt` board provides PSCI itself, so U-Boot runs directly with nothing in front of it.
 - Secure boot, A/B slots and an update path.
 - Out-of-tree drivers. The GPU co-simulation in `cosim/` is not connected to this board yet.
