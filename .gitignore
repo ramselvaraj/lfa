@@ -1,7 +1,3 @@
 build/
 output/
 *.img
-*.o
-*.ko
-__pycache__/
-cosim/build/
